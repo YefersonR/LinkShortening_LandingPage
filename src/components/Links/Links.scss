@@ -1,0 +1,29 @@
+
+.contentShortLinks{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    h2{
+        font-size: 1.4rem;
+    }
+    .short{
+        width: 40%;
+        padding: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h3{
+            font-size: 1.3rem;
+            color: var(--Cyan);
+        }
+        .copied{
+            background-color: var(--VeryDarkBlue);
+        }
+    }
+}
