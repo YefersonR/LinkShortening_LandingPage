@@ -1,0 +1,63 @@
+.linkShorter{
+    position: relative;
+    top: -100px;
+    text-align: center;
+    padding: 20px;
+    .shorterForm{
+        @media screen and (max-width:600px) {
+            width: 95%;
+        }
+        width: 90%;
+        margin: 20px auto;
+        padding: 30px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background: url(../../images/bg-shorten-desktop.svg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: var(--DarkViolet);
+        input{
+            padding: 15px;
+            font-size: 1.2rem;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            width: 70%;
+            margin: 10px;
+            
+            
+        }
+        .bStart.short{
+            background-color: var(--Cyan);
+            color:#fff ;
+            font-weight: 900;
+            padding: 20px;
+            line-height: 5px;
+            height: 45px;
+            font-size: 1.3rem;
+            
+            border-radius: 5px;
+            &:hover{
+                cursor: pointer;
+                opacity: 0.9;
+                
+            }
+            @media screen and (max-width:670px) {
+                font-size: 1.1rem;
+            }
+            @media screen and (max-width:620px) {
+                width: 40%;
+                font-size:1rem ;
+            }
+            @media screen and (max-width:400px) {
+                width: 50%;
+                font-size: 0.9rem;
+            }
+        }
+        
+        .Links{
+            position: relative;
+        }
+    }
+}

@@ -9,7 +9,7 @@ module.exports={
     module:{
         rules:[
             {
-                test:/\.(jsx||js)$/,
+                test:/\.(js||jsx)$/,
                 exclude: /node_modules/,
                 use:{
                     loader:'babel-loader',
@@ -37,7 +37,7 @@ module.exports={
             },
             {
                 type: "asset",
-                test:/\.(img|svg|jpg|jpeg|gif|ico)$/i,
+                test:/\.(png|svg|jpg|jpeg|gif|ico)$/i,
             }
         ]
     },

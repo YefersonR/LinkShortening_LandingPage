@@ -16,7 +16,7 @@ export const Links = ({largeLink, shortedLink}) => {
         <h2>{largeLink}</h2>
         <div className='short'>
           <h3>{shortedLink}</h3>
-          <button className={`bStart ${isCopied && 'copied'}`} onClick={handleClick}>Copy</button>
+          <button className={`bStart ${isCopied && 'copied'}`} onClick={handleClick}>{!isCopied ? "Copy": "Copied"}</button>
         </div>
       </div>
     </>
